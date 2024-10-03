@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Balaji Bhargav R's Personal Portfolio">
+    <title>Balaji Bhargav R | ECE Student</title>
+    <link rel="stylesheet" href="styles1.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="profile-pic animate-fade-in">
+                <img src="your-photo.jpg.JPG" alt="Profile Picture">
+            </div>
+            <h1>Balaji Bhargav R</h1>
+            <p>ECE Student | Technology Enthusiast | IEEE Member</p>
+            <div class="social-links">
+                <a href="mailto:balajibhargavr@gmail.com" class="icon"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.instagram.com/balajibhargavr?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/balaji-bhargav-r-a48216264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="icon"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p class="animate-slide-up">
+                I am a 3rd-year Electronics and Communication Engineering student at Presidency University, Bangalore, with a deep interest in analog communication and Verilog. My hands-on experience includes projects with Arduino, Raspberry Pi, and sensor-based systems. Being an active member of IEEE has provided me opportunities to collaborate and explore emerging trends in ECE. I’m passionate about learning new technologies and applying them to real-world problems.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li class="animate-bounce">Analog Communication</li>
+                <li class="animate-bounce">Verilog Programming</li>
+                <li class="animate-bounce">Arduino & Raspberry Pi Development</li>
+                <li class="animate-bounce">Sensor-Based Systems</li>
+                <li class="animate-bounce">Circuit Design</li>
+                <li class="animate-bounce">Embedded Systems</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-item animate-slide-left">
+                <h3>Environmental Monitoring Sensor</h3>
+                <p>
+                    A mini sensor-based project designed to monitor temperature and humidity levels using Arduino. This project is aimed at providing real-time environmental data for IoT applications.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Education</h2>
+            <p class="animate-slide-up">B.Tech in Electronics and Communication Engineering, Presidency University, Bangalore (2021 - Present)</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p class="animate-slide-up">Email: <a href="mailto:balajibhargavr@gmail.com">balajibhargavr@gmail.com</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/balajibhargavr?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">@balajibhargavr</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/balaji-bhargav-r-a48216264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn Profile</a></p>
+            <p>Phone: +91 8088602744</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Feel free to connect with me to discuss ECE, tech projects, or collaboration opportunities!</p>
+            <a href="#" class="button">Download Resume</a>
+        </div>
+    </footer>
+
+    <!-- Smooth Scroll Script -->
+    <script>
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
